@@ -21,7 +21,8 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 Preview: 
 Landing Page1: <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/7ad8ae4e-9042-4225-bd7e-5fe97f38b3b3" />
 Landing Page2: <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/71170b76-d063-4613-aabb-9fa569e88c07" />
-Learn More Page: <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/f293093b-649d-4066-b144-d1c81a6861cb" />
+Learn More Page: <img width="1899" height="854" alt="image" src="https://github.com/user-attachments/assets/26b1ab9e-defe-429f-a206-fac181dd1bdb" />
+
 
 
 
