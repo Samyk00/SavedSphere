@@ -10,11 +10,11 @@ interface HeroProps {
 export default function Hero({ onLearnMoreClick }: HeroProps) {
   return (
     <section className="relative flex flex-col items-center justify-center min-h-[70vh] overflow-hidden pt-4" style={{
-      background: 'linear-gradient(135deg, #EAF8BF 0%, #D4F0A8 50%, #EAF8BF 100%)'
+      background: 'linear-gradient(135deg, #ffffff 0%, #ffffff 50%, #ffffff 100%)'
     }}>
       {/* Depth layering with color shades */}
       <div className="absolute inset-0" style={{
-        background: 'linear-gradient(135deg, rgba(234, 248, 191, 0.9) 0%, rgba(212, 240, 168, 0.7) 50%, rgba(234, 248, 191, 0.9) 100%)'
+        background: 'linear-gradient(135deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.7) 50%, rgba(255, 255, 255, 0.9) 100%)'
       }} />
       <div className="absolute inset-0" style={{
         background: 'radial-gradient(circle at 30% 20%, rgba(236, 164, 0, 0.05) 0%, transparent 50%), radial-gradient(circle at 70% 80%, rgba(236, 164, 0, 0.03) 0%, transparent 50%)'
@@ -33,7 +33,7 @@ export default function Hero({ onLearnMoreClick }: HeroProps) {
         <motion.div
           className="inline-flex items-center px-6 py-3 mb-6 text-sm font-semibold text-gray-700 rounded-full shadow-[0_4px_12px_rgba(0,0,0,0.1),0_2px_4px_rgba(0,0,0,0.05)]"
           style={{
-            background: 'linear-gradient(135deg, rgba(234, 248, 191, 0.95) 0%, rgba(212, 240, 168, 0.9) 100%)',
+            background: 'linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.9) 100%)',
             border: '1px solid rgba(0,0,0,0.05)'
           }}
           initial={{ opacity: 0, scale: 0.8, rotate: -5 }}
@@ -43,6 +43,7 @@ export default function Hero({ onLearnMoreClick }: HeroProps) {
           <div className="w-2 h-2 rounded-full mr-3 animate-pulse shadow-[0_2px_4px_rgba(0,0,0,0.2)]" style={{ backgroundColor: '#ECA400' }}></div>
           Your Links, Forever Found
         </motion.div>
+
 
         <motion.h1
           className="text-4xl md:text-6xl font-black mb-6 text-black leading-tight"
@@ -113,7 +114,7 @@ export default function Hero({ onLearnMoreClick }: HeroProps) {
             size="lg"
             className="text-lg px-10 py-6 text-gray-700 rounded-xl font-medium shadow-[0_4px_12px_rgba(0,0,0,0.1),0_2px_4px_rgba(0,0,0,0.05)] hover:shadow-[0_6px_16px_rgba(0,0,0,0.15),0_3px_6px_rgba(0,0,0,0.1)] transition-all duration-300 border-2 cursor-pointer"
             style={{
-              background: 'linear-gradient(135deg, rgba(234, 248, 191, 0.8) 0%, rgba(212, 240, 168, 0.6) 100%)',
+              background: 'linear-gradient(135deg, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.6) 100%)',
               borderColor: 'rgba(0,0,0,0.1)'
             }}
             onClick={onLearnMoreClick}
