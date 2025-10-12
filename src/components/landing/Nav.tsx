@@ -1,3 +1,5 @@
+'use client';
+
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
@@ -8,12 +10,14 @@ interface NavProps {
 export default function Nav({ showHomeLink = false }: NavProps) {
   return (
     <div style={{
-      background: 'linear-gradient(135deg, rgba(234, 248, 191, 0.95) 0%, rgba(212, 240, 168, 0.9) 100%)',
+      background: 'linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.9) 100%)',
       boxShadow: 'inset 0 1px 0 rgba(255,255,255,0.2), inset 0 -1px 0 rgba(0,0,0,0.05)'
     }}>
       <nav className="flex items-center justify-between px-8 py-6 mx-auto max-w-7xl relative">
-        <div className="relative z-10 text-3xl font-black tracking-tight text-black">
-          SavedSphere
+        <div className="relative z-10">
+          <h1 className="text-4xl font-black tracking-tight text-black hover:text-[#ECA400] transition-colors duration-300 cursor-default select-none">
+            SavedSphere
+          </h1>
         </div>
         <div className="relative z-10 flex items-center space-x-6">
           {showHomeLink && (
