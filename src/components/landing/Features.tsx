@@ -45,11 +45,11 @@ const itemVariants = {
 export default function Features() {
   return (
     <section id="features" className="py-24 px-8 relative" style={{
-      background: 'linear-gradient(135deg, #EAF8BF 0%, #D4F0A8 50%, #EAF8BF 100%)'
+      background: 'linear-gradient(135deg, #ffffff 0%, #ffffff 50%, #ffffff 100%)'
     }}>
       {/* Depth layering for section background */}
       <div className="absolute inset-0" style={{
-        background: 'linear-gradient(135deg, rgba(234, 248, 191, 0.9) 0%, rgba(212, 240, 168, 0.8) 50%, rgba(234, 248, 191, 0.9) 100%)'
+        background: 'linear-gradient(135deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0.9) 100%)'
       }} />
       <div className="absolute inset-0 shadow-[inset_0_1px_0_rgba(255,255,255,0.1),inset_0_-1px_0_rgba(0,0,0,0.03)]" />
 
